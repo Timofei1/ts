@@ -27,7 +27,7 @@ const osName = platform();
 
 const Persik = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
-		<PanelHeader>Что такое TeamSpeak?</PanelHeader>
+		<PanelHeader>Что такое TS3?</PanelHeader>
 		<Tabbar>
           <TabbarItem
             onClick={go}
@@ -37,9 +37,8 @@ const Persik = ({ id, go, fetchedUser }) => (
           <TabbarItem
             onClick={go}
             data-to="persik"
-            label="•"
             text="Что это"
-          ><Icon28HelpOutline /></TabbarItem>
+          ><Icon28HelpOutline fill="#0000FF" /></TabbarItem>
           <TabbarItem
             onClick={go}
             data-to="persik1"
@@ -55,9 +54,7 @@ const Persik = ({ id, go, fetchedUser }) => (
         <Group>
            <Div>
            <center>
-            <Button component="a" href="https://www.teamspeak.com/ru/downloads/">
-                    Скачать клиент TeamSpeak 3
-            </Button>
+            <Button component="a" href="https://www.teamspeak.com/ru/downloads/">Скачать TS3 для ПК</Button>
             </center>
            </Div>
         </Group>

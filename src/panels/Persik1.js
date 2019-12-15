@@ -43,9 +43,8 @@ const Persik1 = ({ id, go, fetchedUser }) => (
           <TabbarItem
             onClick={go}
             data-to="persik1"
-            label="•"
             text="Сервера"
-          ><Icon28Game /></TabbarItem>
+          ><Icon28Game fill="#0000FF" /></TabbarItem>
           <TabbarItem
             onClick={go}
             data-to="persik2"
@@ -56,10 +55,16 @@ const Persik1 = ({ id, go, fetchedUser }) => (
         <Group title="Каталог серверов">
         <Div>
         Айпи - <b>TeamSpeak Геймеров</b>
+        <br/>
+        <i>Данный сервер предназначен для...</i>
         <Separator style={{ margin: '12px 0' }} />
         Айпи - <b>TeamSpeak Ютуберов</b>
+        <br/>
+        <i>Данный сервер предназначен для...</i>
         <Separator style={{ margin: '12px 0' }} />
         Айпи - <b>TeamSpeak Депоент</b>
+        <br/>
+        <i>Данный сервер предназначен для...</i>
         </Div>
         </Group>
 	</Panel>

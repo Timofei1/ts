@@ -47,9 +47,8 @@ const Persik2 = ({ id, go, fetchedUser }) => (
           <TabbarItem
             onClick={go}
             data-to="persik2"
-            label="•"
             text="Дополнительно"
-          ><Icon28SettingsOutline /></TabbarItem>
+          ><Icon28SettingsOutline fill="#0000FF" /></TabbarItem>
         </Tabbar>
 	</Panel>
 );

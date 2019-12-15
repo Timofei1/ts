@@ -16,6 +16,7 @@ import Icon28HelpOutline from '@vkontakte/icons/dist/28/help_outline';
 import Icon28SettingsOutline from '@vkontakte/icons/dist/28/settings_outline';
 import Icon28Game from '@vkontakte/icons/dist/28/game';
 import HorizontalScroll from '@vkontakte/vkui/dist/components/HorizontalScroll/HorizontalScroll';
+import Spinner from '@vkontakte/vkui/dist/components/Spinner/Spinner'
 
 const Home = ({ id, go, fetchedUser }) => (
 
@@ -23,14 +24,13 @@ const Home = ({ id, go, fetchedUser }) => (
   
 
 <Panel id={id}>
-		<PanelHeader>Купить TeamSpeak</PanelHeader>
+		<PanelHeader>Купить TS3</PanelHeader>
        <Tabbar>
-          <TabbarItem
+          <TabbarItem fill="#0000FF"
             onClick={go}
             data-to="home"
-            label="•"
-            text="Купить"
-          ><Icon28MarketOutline /></TabbarItem>
+            text="Что это"
+          ><Icon28MarketOutline fill="#0000FF" /></TabbarItem>
           <TabbarItem
             onClick={go}
             data-to="persik"
@@ -48,27 +48,30 @@ const Home = ({ id, go, fetchedUser }) => (
           ><Icon28SettingsOutline /></TabbarItem>
         </Tabbar>
 
+        <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
+      <Spinner size="large" style={{ marginTop: 1 }} />
+        </div>
+
         <FixedLayout vertical="top">
               <Tabs theme="header" type="buttons">
                 <HorizontalScroll>
                   <TabsItem
                     onClick={go}
                     data-to="persik"
-                    label="•"
                   >
-                    Все
+                    Сервера
                   </TabsItem>
                   <TabsItem
                     onClick={go}
                     data-to="home"
                   >
-                    Люди
+                    Дополнения к серверам
                   </TabsItem>
                   <TabsItem
                     onClick={go}
                     data-to="home"
                   >
-                    Сообщества
+                    Прочее
                   </TabsItem>
                 </HorizontalScroll>
             </Tabs>
