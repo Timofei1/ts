@@ -17,6 +17,7 @@ import Icon28SettingsOutline from '@vkontakte/icons/dist/28/settings_outline';
 import Icon28Game from '@vkontakte/icons/dist/28/game';
 import HorizontalScroll from '@vkontakte/vkui/dist/components/HorizontalScroll/HorizontalScroll';
 import Spinner from '@vkontakte/vkui/dist/components/Spinner/Spinner'
+import Separator from '@vkontakte/vkui/dist/components/Separator/Separator';
 
 const Home = ({ id, go, fetchedUser }) => (
 
@@ -57,9 +58,9 @@ const Home = ({ id, go, fetchedUser }) => (
                 <HorizontalScroll>
                   <TabsItem
                     onClick={go}
-                    data-to="persik"
+                    data-to="home"
                   >
-                    Сервера
+                    <u>Сервера</u>
                   </TabsItem>
                   <TabsItem
                     onClick={go}
@@ -76,6 +77,66 @@ const Home = ({ id, go, fetchedUser }) => (
                 </HorizontalScroll>
             </Tabs>
         </FixedLayout>
+        
+        <Group title="Примечание">
+        <Div>
+        В этой категории цены указаны за 1 слот.
+        </Div>
+        </Group>
+        
+        <Group>
+        
+        <Button level="tertiary" component="a" href="#" before={
+        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="110" />}>
+        <h4>Новая версия (базовый)</h4>
+        <div className="Cell__description">
+		5 рублей/слот
+		</div>
+        </Button>
+		<Separator style={{ margin: '12px 0' }} />
+
+        
+        <Button level="tertiary" component="a" href="#" before={
+        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="110" />}>
+        <h4>Новая версия (базовый)</h4>
+        <div className="Cell__description">
+		5 рублей/слот
+		</div>
+        </Button>
+        <Separator style={{ margin: '12px 0' }} />
+		
+        
+        <Button level="tertiary" component="a" href="#" before={
+        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="110" />}>
+        <h4>Новая версия (базовый)</h4>
+        <div className="Cell__description">
+		5 рублей/слот
+		</div>
+        </Button>
+        <Separator style={{ margin: '12px 0' }} />
+		
+        
+        <Button level="tertiary" component="a" href="#" before={
+        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="110" />}>
+        <h4>Новая версия (базовый)</h4>
+        <div className="Cell__description">
+		5 рублей/слот
+		</div>
+        </Button>
+        <Separator style={{ margin: '12px 0' }} />
+		
+        
+        <Button level="tertiary" component="a" href="#" before={
+        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="110" />}>
+        <h4>Новая версия (базовый)</h4>
+        <div className="Cell__description">
+		5 рублей/слот
+		</div>
+        </Button>
+        <Separator style={{ margin: '12px 0' }} />
+
+        </Group>
+        
 	</Panel>
 );
 
