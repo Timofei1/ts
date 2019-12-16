@@ -19,6 +19,8 @@ import { platform, IOS } from '@vkontakte/vkui';
 import HeaderButton from '@vkontakte/vkui/dist/components/HeaderButton/HeaderButton';
 import Icon28ChevronBack from '@vkontakte/icons/dist/28/chevron_back';
 import Icon24Back from '@vkontakte/icons/dist/24/back';
+import { ListItem } from '@vkontakte/vkui';
+import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
 
 import persik from '../img/persik.png';
 import './Persik.css';
@@ -32,25 +34,54 @@ const Persik2 = ({ id, go, fetchedUser }) => (
           <TabbarItem
             onClick={go}
             data-to="home"
-            text="Купить"
           ><Icon28MarketOutline /></TabbarItem>
           <TabbarItem
             onClick={go}
             data-to="persik"
-            text="Что это"
           ><Icon28HelpOutline /></TabbarItem>
           <TabbarItem
             onClick={go}
             data-to="persik1"
-            text="Сервера"
           ><Icon28Game /></TabbarItem>
           <TabbarItem
             onClick={go}
             data-to="persik2"
-            text="Дополнительно"
           ><Icon28SettingsOutline fill="#0000FF" /></TabbarItem>
         </Tabbar>
+
+        <Group title="Настройки">
+        <Div>
+        </Div>
+        </Group>
+
+        {fetchedUser &&
+    <Group title="Ваш профиль:">
+      <ListItem
+        before={fetchedUser.photo_200 ? <Avatar src={fetchedUser.photo_200}/> : null}
+        description={fetchedUser.city && fetchedUser.city.title ? fetchedUser.city.title : ''}
+      >
+        {`${fetchedUser.first_name} ${fetchedUser.last_name}`}
+      </ListItem>
+    </Group>}
+
+      <Group title="Обратная связь">
+      <Div>
+      <Button level="tertiary" component="a" href="https://vk.com/id_123_12" before={
+      <img src="" width="110" />}>
+        <h4>Рылов Тимофей</h4>
+        <div className="Cell__description">
+        Разработчик
+        </div>
+        </Button>
+      </Div>
+      </Group>
+
+      {
+                id === 288498260 &&
+                  <Button level="tertiary">Тест кнопка</Button>
+      }
 	</Panel>
+
 );
 
 Persik2.propTypes = {
@@ -64,6 +95,8 @@ Persik2.propTypes = {
 			title: PropTypes.string,
 		}),
 	}),
+
+  
 };
 
 export default Persik2;

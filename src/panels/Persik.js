@@ -32,22 +32,18 @@ const Persik = ({ id, go, fetchedUser }) => (
           <TabbarItem
             onClick={go}
             data-to="home"
-            text="Купить"
           ><Icon28MarketOutline /></TabbarItem>
           <TabbarItem
             onClick={go}
             data-to="persik"
-            text="Что это"
           ><Icon28HelpOutline fill="#0000FF" /></TabbarItem>
           <TabbarItem
             onClick={go}
             data-to="persik1"
-            text="Сервера"
           ><Icon28Game /></TabbarItem>
           <TabbarItem
             onClick={go}
             data-to="persik2"
-            text="Дополнительно"
           ><Icon28SettingsOutline /></TabbarItem>
         </Tabbar>
         

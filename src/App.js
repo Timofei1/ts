@@ -52,7 +52,7 @@ const App = () => {
 			<Home id='home' fetchedUser={fetchedUser} go={go} />
 			<Persik id='persik' go={go} />
 			<Persik1 id='persik1' go={go} />
-			<Persik2 id='persik2' go={go} />
+			<Persik2 id='persik2' fetchedUser={fetchedUser} go={go} />
 			<Persik3 id='persik3' go={go} />
 			<Persik4 id='persik4' go={go} />
 		</View>
