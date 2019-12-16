@@ -19,14 +19,17 @@ import { platform, IOS } from '@vkontakte/vkui';
 import HeaderButton from '@vkontakte/vkui/dist/components/HeaderButton/HeaderButton';
 import Icon28ChevronBack from '@vkontakte/icons/dist/28/chevron_back';
 import Icon24Back from '@vkontakte/icons/dist/24/back';
-import { ListItem } from '@vkontakte/vkui';
+import { ListItem, ModalCard } from '@vkontakte/vkui';
 import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
+import Separator from '@vkontakte/vkui/dist/components/Separator/Separator';
+import Icon28Messages from '@vkontakte/icons/dist/28/messages';
+import Icon28UsersOutline from '@vkontakte/icons/dist/28/users_outline';
 
 import persik from '../img/persik.png';
 import './Persik.css';
 
 const osName = platform();
-
+const MODAL_CARD_NOTIFICATIONS = 'notifications';
 const Persik2 = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
 		<PanelHeader>Дополнительно</PanelHeader>
@@ -66,13 +69,35 @@ const Persik2 = ({ id, go, fetchedUser }) => (
 
       <Group title="Обратная связь">
       <Div>
-      <Button level="tertiary" component="a" href="https://vk.com/id_123_12" before={
-      <img src="" width="110" />}>
-        <h4>Рылов Тимофей</h4>
-        <div className="Cell__description">
-        Разработчик
-        </div>
-        </Button>
+      <Cell
+                  before={<Avatar size={72}
+                  src="https://sun3-10.userapi.com/c855136/v855136589/18636c/1_D877Mj2bE.jpg" />}
+                  size="l"
+                  description="Разработчик"
+                  bottomContent={
+                    <div style={{ display: 'flex' }}>
+                      <Button size="m" component="a" href="https://vk.me/id288498260">Написать</Button>
+                      <Button size="m" level="secondary" style={{ marginLeft: 8 }} component="a" href="https://vk.com/id288498260">На страницу</Button>
+                    </div>
+                  }
+                >
+                  Рылов Тимофей</Cell>
+      <Separator style={{ margin: '12px 0' }} />
+      <Div style={{display: 'flex'}}>
+      <Button size="l" level="outline" component="a" href="https://vk.cc/a8TT8i" before={
+        <Icon28Messages />
+      }>
+      
+      Наша беседа
+      </Button>
+
+      <Separator style={{ margin: '12px 0' }} />
+      <Button size="l" level="outline" component="a" href="https://vk.cc/a8TT8i" before={
+        <Icon28UsersOutline />
+      }>
+      Наше сообщество
+      </Button>
+      </Div>
       </Div>
       </Group>
 
@@ -80,6 +105,9 @@ const Persik2 = ({ id, go, fetchedUser }) => (
                 id === 288498260 &&
                   <Button level="tertiary">Тест кнопка</Button>
       }
+
+      
+
 	</Panel>
 
 );
