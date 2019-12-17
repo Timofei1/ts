@@ -88,6 +88,10 @@ const Persik1 = ({ id, go, fetchedUser }) => (
         Айпи: <b>тут будет айпи</b><br/>
         Описание: <i>Тут будет описание</i>
         <Separator style={{ margin: '12px 0' }} />
+        <Button size="xl" component="a" href="#">Вверх</Button>
+        <br/>
+        <br/>
+        <br/>
         </center>
         </Div>
         </Group>
