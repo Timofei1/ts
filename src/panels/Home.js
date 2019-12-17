@@ -20,6 +20,8 @@ import Spinner from '@vkontakte/vkui/dist/components/Spinner/Spinner'
 import { Separator } from '@vkontakte/vkui';
 import { PanelHeaderBack, Epic, View } from '@vkontakte/vkui';
 import PanelSpinner from '@vkontakte/vkui/dist/components/PanelSpinner/PanelSpinner';
+import Icon28ArticleOutline from '@vkontakte/icons/dist/28/article_outline';
+
 
 const Home = ({ id, go, fetchedUser, loading }) => (
 
@@ -42,6 +44,10 @@ const Home = ({ id, go, fetchedUser, loading }) => (
             onClick={go}
             data-to="persik1"
           ><Icon28Game /></TabbarItem>
+          <TabbarItem
+            onClick={go}
+            data-to="persik3"
+          ><Icon28ArticleOutline /></TabbarItem>
           <TabbarItem
             onClick={go}
             data-to="persik2"
@@ -87,7 +93,7 @@ const Home = ({ id, go, fetchedUser, loading }) => (
         
         <Group>
         <center>
-        <Button level="tertiary" component="a" href="#">
+        <Button level="tertiary" component="xl" href="#">
         <h2>Новая версия (базовый)</h2>
         <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
         <div className="Cell__description">
@@ -101,16 +107,16 @@ const Home = ({ id, go, fetchedUser, loading }) => (
         <div>
         
                       
-                      <Button size="l" level="outline" component="xl" href="#">Купить </Button>
+                      <Button size="l" level="outline" component="a" href="#">Купить </Button>
 
-                      <Button size="l" level="outline" component="xl" href="#"> Продавец</Button>
+                      <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
                       
                     </div>
                                     </center>
 		<Separator style={{ margin: '12px 0' }} />
 
         
-        <Button level="tertiary" component="a" href="#">
+        <Button level="tertiary" component="xl" href="#">
         <h2>Новая версия (базовый)</h2>
         <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
         <div className="Cell__description">
@@ -124,16 +130,16 @@ const Home = ({ id, go, fetchedUser, loading }) => (
         <div>
         
                       
-                      <Button size="l" level="outline" component="xl" href="#">Купить </Button>
+                      <Button size="l" level="outline" component="a" href="#">Купить </Button>
 
-                      <Button size="l" level="outline" component="xl" href="#"> Продавец</Button>
+                      <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
                       
                     </div>
                                     </center>
         <Separator style={{ margin: '12px 0' }} />
 		
         
-        <Button level="tertiary" component="a" href="#">
+        <Button level="tertiary" component="xl" href="#">
         <h2>Новая версия (базовый)</h2>
         <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
         <div className="Cell__description">
@@ -147,16 +153,16 @@ const Home = ({ id, go, fetchedUser, loading }) => (
         <div>
         
                       
-                      <Button size="l" level="outline" component="xl" href="#">Купить </Button>
+                      <Button size="l" level="outline" component="a" href="#">Купить </Button>
 
-                      <Button size="l" level="outline" component="xl" href="#"> Продавец</Button>
+                      <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
                       
                     </div>
                                     </center>
         <Separator style={{ margin: '12px 0' }} />
 		
         
-        <Button level="tertiary" component="a" href="#">
+        <Button level="tertiary" component="xl" href="#">
         <h2>Новая версия (базовый)</h2>
         <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
         <div className="Cell__description">
@@ -170,16 +176,16 @@ const Home = ({ id, go, fetchedUser, loading }) => (
         <div>
         
                       
-                      <Button size="l" level="outline" component="xl" href="#">Купить </Button>
+                      <Button size="l" level="outline" component="a" href="#">Купить </Button>
 
-                      <Button size="l" level="outline" component="xl" href="#"> Продавец</Button>
+                      <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
                       
                     </div>
                                     </center>
         <Separator style={{ margin: '12px 0' }} />
 		
         
-        <Button level="tertiary" component="a" href="#">
+        <Button level="tertiary" component="xl" href="#">
         <h2>Новая версия (базовый)</h2>
         <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
         <div className="Cell__description">
@@ -193,14 +199,17 @@ const Home = ({ id, go, fetchedUser, loading }) => (
         <div>
         
                       
-                      <Button size="l" level="outline" component="xl" href="#">Купить </Button>
+                      <Button size="l" level="outline" component="a" href="#">Купить </Button>
 
-                      <Button size="l" level="outline" component="xl" href="#"> Продавец</Button>
+                      <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
                       
                     </div>
                                     </center>
         <Separator style={{ margin: '12px 0' }} />
         </center>
+        <br/>
+        <br/>
+        <Button component="a" href="#">Вверх</Button>
         </Group>
         
 	</Panel>

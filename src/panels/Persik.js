@@ -19,6 +19,8 @@ import { platform, IOS } from '@vkontakte/vkui';
 import HeaderButton from '@vkontakte/vkui/dist/components/HeaderButton/HeaderButton';
 import Icon28ChevronBack from '@vkontakte/icons/dist/28/chevron_back';
 import Icon24Back from '@vkontakte/icons/dist/24/back';
+import Icon28ArticleOutline from '@vkontakte/icons/dist/28/article_outline';
+
 
 import persik from '../img/persik.png';
 import './Persik.css';
@@ -41,6 +43,10 @@ const Persik = ({ id, go, fetchedUser }) => (
             onClick={go}
             data-to="persik1"
           ><Icon28Game /></TabbarItem>
+          <TabbarItem
+            onClick={go}
+            data-to="persik3"
+          ><Icon28ArticleOutline /></TabbarItem>
           <TabbarItem
             onClick={go}
             data-to="persik2"

@@ -20,6 +20,8 @@ import HeaderButton from '@vkontakte/vkui/dist/components/HeaderButton/HeaderBut
 import Icon28ChevronBack from '@vkontakte/icons/dist/28/chevron_back';
 import Icon24Back from '@vkontakte/icons/dist/24/back';
 import Separator from '@vkontakte/vkui/dist/components/Separator/Separator';
+import Icon28ArticleOutline from '@vkontakte/icons/dist/28/article_outline';
+
 
 import persik from '../img/persik.png';
 import './Persik.css';
@@ -47,23 +49,42 @@ const Persik1 = ({ id, go, fetchedUser }) => (
           ><Icon28Game fill="#0000FF" /></TabbarItem>
           <TabbarItem
             onClick={go}
+            data-to="persik3"
+          ><Icon28ArticleOutline /></TabbarItem>
+          <TabbarItem
+            onClick={go}
             data-to="persik2"
           ><Icon28SettingsOutline /></TabbarItem>
         </Tabbar>
 
         <Group title="Каталог серверов">
         <Div>
-        Айпи - <b>TeamSpeak Геймеров</b>
+        <center>
+        <h3>Название сервера</h3>
         <br/>
-        <i>Данный сервер предназначен для...</i>
+        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
+        Айпи: <b>тут будет айпи</b><br/>
+        Описание: <i>Тут будет описание</i>
         <Separator style={{ margin: '12px 0' }} />
-        Айпи - <b>TeamSpeak Ютуберов</b>
+        <h3>Название сервера</h3>
         <br/>
-        <i>Данный сервер предназначен для...</i>
+        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
+        Айпи: <b>тут будет айпи</b><br/>
+        Описание: <i>Тут будет описание</i>
         <Separator style={{ margin: '12px 0' }} />
-        Айпи - <b>TeamSpeak Депоент</b>
+        <h3>Название сервера</h3>
         <br/>
-        <i>Данный сервер предназначен для...</i>
+        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
+        Айпи: <b>тут будет айпи</b><br/>
+        Описание: <i>Тут будет описание</i>
+        <Separator style={{ margin: '12px 0' }} />
+        <h3>Название сервера</h3>
+        <br/>
+        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
+        Айпи: <b>тут будет айпи</b><br/>
+        Описание: <i>Тут будет описание</i>
+        <Separator style={{ margin: '12px 0' }} />
+        </center>
         </Div>
         </Group>
        

@@ -19,11 +19,13 @@ import { platform, IOS } from '@vkontakte/vkui';
 import HeaderButton from '@vkontakte/vkui/dist/components/HeaderButton/HeaderButton';
 import Icon28ChevronBack from '@vkontakte/icons/dist/28/chevron_back';
 import Icon24Back from '@vkontakte/icons/dist/24/back';
-import { ListItem, ModalCard, Switch, Checkbox, Footer, Tooltip, Radio } from '@vkontakte/vkui';
+import { ListItem, ModalCard, Switch, Checkbox, Footer, Tooltip, Radio, Gallery } from '@vkontakte/vkui';
 import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
 import Separator from '@vkontakte/vkui/dist/components/Separator/Separator';
 import Icon28Messages from '@vkontakte/icons/dist/28/messages';
 import Icon28UsersOutline from '@vkontakte/icons/dist/28/users_outline';
+import Icon28ArticleOutline from '@vkontakte/icons/dist/28/article_outline';
+
 
 import persik from '../img/persik.png';
 import './Persik.css';
@@ -48,9 +50,15 @@ const Persik2 = ({ id, go, fetchedUser }) => (
           ><Icon28Game /></TabbarItem>
           <TabbarItem
             onClick={go}
+            data-to="persik3"
+          ><Icon28ArticleOutline /></TabbarItem>
+          <TabbarItem
+            onClick={go}
             data-to="persik2"
           ><Icon28SettingsOutline fill="#0000FF" /></TabbarItem>
         </Tabbar>
+         
+
 
         <Group title="Настройки">
         <Div>

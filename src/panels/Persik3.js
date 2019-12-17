@@ -15,10 +15,11 @@ import Icon28MarketOutline from '@vkontakte/icons/dist/28/market_outline';
 import Icon28HelpOutline from '@vkontakte/icons/dist/28/help_outline';
 import Icon28SettingsOutline from '@vkontakte/icons/dist/28/settings_outline';
 import Icon28Game from '@vkontakte/icons/dist/28/game';
-import { platform, IOS } from '@vkontakte/vkui';
+import { platform, IOS, Gallery } from '@vkontakte/vkui';
 import HeaderButton from '@vkontakte/vkui/dist/components/HeaderButton/HeaderButton';
 import Icon28ChevronBack from '@vkontakte/icons/dist/28/chevron_back';
 import Icon24Back from '@vkontakte/icons/dist/24/back';
+import Icon28ArticleOutline from '@vkontakte/icons/dist/28/article_outline';
 
 import persik from '../img/persik.png';
 import './Persik.css';
@@ -27,30 +28,51 @@ const osName = platform();
 
 const Persik3 = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
-		<PanelHeader>Что такое TeamSpeak?</PanelHeader>
+		<PanelHeader>Новости</PanelHeader>
 		<Tabbar>
           <TabbarItem
             onClick={go}
             data-to="home"
-            text="Купить"
           ><Icon28MarketOutline /></TabbarItem>
           <TabbarItem
             onClick={go}
             data-to="persik"
-            label="•"
-            text="Что это"
           ><Icon28HelpOutline /></TabbarItem>
           <TabbarItem
             onClick={go}
-            data-to="home"
-            text="Сервера"
+            data-to="persik1"
           ><Icon28Game /></TabbarItem>
           <TabbarItem
             onClick={go}
-            data-to="home"
-            text="Дополнительно"
-          ><Icon28SettingsOutline /></TabbarItem>
+            data-to="persik3"
+          ><Icon28ArticleOutline fill="#0000FF" /></TabbarItem>
+          <TabbarItem
+            onClick={go}
+            data-to="persik2"
+          ><Icon28SettingsOutline  /></TabbarItem>
         </Tabbar>
+         
+        <Gallery
+                slideWidth="90%"
+                style={{ height: 150 }}
+                bullets="dark"
+              >
+                <div style={{ backgroundColor: 'var(--destructive)' }} >
+                <img src="https://sun9-40.userapi.com/c857428/v857428281/129f55/z9pT8aN9oI0.jpg" width="295" />
+                </div>
+                <div style={{ backgroundColor: 'var(--button_commerce_background)' }} >
+                <img src="https://sun9-49.userapi.com/c857320/v857320281/87407/cUS8JspjNQU.jpg" width="295" />
+                </div>
+                <div style={{ backgroundColor: 'var(--accent)' }} >
+                <img src="https://sun9-25.userapi.com/c858424/v858424182/35bd1/TbJ3vc2RMDA.jpg" />
+                </div>
+              </Gallery>
+        <Group>
+        <Div>
+        <b>Версия 1.0</b><br/><br/>
+        <i>Релиз приложения.</i>
+        </Div>
+        </Group>
 	</Panel>
 );
 
