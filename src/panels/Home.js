@@ -110,6 +110,8 @@ const Home = ({ id, go, fetchedUser, loading }) => (
                       <Button size="l" level="outline" component="a" href="#">Купить </Button>
 
                       <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
+
+                      <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
                       
                     </div>
                                     </center>
@@ -133,6 +135,8 @@ const Home = ({ id, go, fetchedUser, loading }) => (
                       <Button size="l" level="outline" component="a" href="#">Купить </Button>
 
                       <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
+
+                      <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
                       
                     </div>
                                     </center>
@@ -156,6 +160,8 @@ const Home = ({ id, go, fetchedUser, loading }) => (
                       <Button size="l" level="outline" component="a" href="#">Купить </Button>
 
                       <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
+
+                      <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
                       
                     </div>
                                     </center>
@@ -179,6 +185,8 @@ const Home = ({ id, go, fetchedUser, loading }) => (
                       <Button size="l" level="outline" component="a" href="#">Купить </Button>
 
                       <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
+
+                      <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
                       
                     </div>
                                     </center>
@@ -202,14 +210,18 @@ const Home = ({ id, go, fetchedUser, loading }) => (
                       <Button size="l" level="outline" component="a" href="#">Купить </Button>
 
                       <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
+
+                      <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
                       
                     </div>
                                     </center>
         <Separator style={{ margin: '12px 0' }} />
         </center>
+        
+        <Button size="xl" component="a" href="#">Вверх</Button>
         <br/>
         <br/>
-        <Button component="a" href="#">Вверх</Button>
+        <br/>
         </Group>
         
 	</Panel>
