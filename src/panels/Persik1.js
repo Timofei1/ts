@@ -15,7 +15,7 @@ import Icon28MarketOutline from '@vkontakte/icons/dist/28/market_outline';
 import Icon28HelpOutline from '@vkontakte/icons/dist/28/help_outline';
 import Icon28SettingsOutline from '@vkontakte/icons/dist/28/settings_outline';
 import Icon28Game from '@vkontakte/icons/dist/28/game';
-import { platform, IOS } from '@vkontakte/vkui';
+import { platform, IOS, Search } from '@vkontakte/vkui';
 import HeaderButton from '@vkontakte/vkui/dist/components/HeaderButton/HeaderButton';
 import Icon28ChevronBack from '@vkontakte/icons/dist/28/chevron_back';
 import Icon24Back from '@vkontakte/icons/dist/24/back';
@@ -28,7 +28,10 @@ const osName = platform();
 
 const Persik1 = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
-		<PanelHeader>Сервера</PanelHeader>
+		<PanelHeader>
+    Сервера
+    </PanelHeader>
+      <Search />    
 		<Tabbar>
           <TabbarItem
             onClick={go}
@@ -63,6 +66,7 @@ const Persik1 = ({ id, go, fetchedUser }) => (
         <i>Данный сервер предназначен для...</i>
         </Div>
         </Group>
+       
 	</Panel>
 );
 

@@ -17,15 +17,18 @@ import Icon28SettingsOutline from '@vkontakte/icons/dist/28/settings_outline';
 import Icon28Game from '@vkontakte/icons/dist/28/game';
 import HorizontalScroll from '@vkontakte/vkui/dist/components/HorizontalScroll/HorizontalScroll';
 import Spinner from '@vkontakte/vkui/dist/components/Spinner/Spinner'
-import Separator from '@vkontakte/vkui/dist/components/Separator/Separator';
+import { Separator } from '@vkontakte/vkui';
+import { PanelHeaderBack, Epic, View } from '@vkontakte/vkui';
+import PanelSpinner from '@vkontakte/vkui/dist/components/PanelSpinner/PanelSpinner';
 
-const Home = ({ id, go, fetchedUser }) => (
+const Home = ({ id, go, fetchedUser, loading }) => (
 
        
   
 
 <Panel id={id}>
-		<PanelHeader>Купить TS3</PanelHeader>
+		<PanelHeader left={<PanelHeaderBack />}>Купить TS3</PanelHeader>
+		 
        <Tabbar>
           <TabbarItem fill="#0000FF"
             onClick={go}
@@ -45,10 +48,8 @@ const Home = ({ id, go, fetchedUser }) => (
           ><Icon28SettingsOutline /></TabbarItem>
         </Tabbar>
 
-        <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
-      <Spinner size="large" style={{ marginTop: 1 }} />
-        </div>
-
+        
+        
         <FixedLayout vertical="top">
               <Tabs theme="header" type="buttons">
                 <HorizontalScroll>
@@ -72,7 +73,11 @@ const Home = ({ id, go, fetchedUser }) => (
                   </TabsItem>
                 </HorizontalScroll>
             </Tabs>
+            
+           
         </FixedLayout>
+        
+
         
         <Group title="Примечание">
         <Div>
@@ -81,56 +86,121 @@ const Home = ({ id, go, fetchedUser }) => (
         </Group>
         
         <Group>
-        
-        <Button level="tertiary" component="a" href="#" before={
-        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="110" />}>
-        <h4>Новая версия (базовый)</h4>
+        <center>
+        <Button level="tertiary" component="a" href="#">
+        <h2>Новая версия (базовый)</h2>
+        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
         <div className="Cell__description">
-		5 рублей/слот
+		Цена: 5 рублей/слот
 		</div>
+		<br/>
+		
         </Button>
+        <center>
+        
+        <div>
+        
+                      
+                      <Button size="l" level="outline" component="xl" href="#">Купить </Button>
+
+                      <Button size="l" level="outline" component="xl" href="#"> Продавец</Button>
+                      
+                    </div>
+                                    </center>
 		<Separator style={{ margin: '12px 0' }} />
 
         
-        <Button level="tertiary" component="a" href="#" before={
-        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="110" />}>
-        <h4>Новая версия (базовый)</h4>
+        <Button level="tertiary" component="a" href="#">
+        <h2>Новая версия (базовый)</h2>
+        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
         <div className="Cell__description">
-		5 рублей/слот
+		Цена: 5 рублей/слот
 		</div>
-        </Button>
-        <Separator style={{ margin: '12px 0' }} />
+		<br/>
 		
-        
-        <Button level="tertiary" component="a" href="#" before={
-        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="110" />}>
-        <h4>Новая версия (базовый)</h4>
-        <div className="Cell__description">
-		5 рублей/слот
-		</div>
         </Button>
-        <Separator style={{ margin: '12px 0' }} />
-		
+        <center>
         
-        <Button level="tertiary" component="a" href="#" before={
-        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="110" />}>
-        <h4>Новая версия (базовый)</h4>
-        <div className="Cell__description">
-		5 рублей/слот
-		</div>
-        </Button>
-        <Separator style={{ margin: '12px 0' }} />
-		
+        <div>
         
-        <Button level="tertiary" component="a" href="#" before={
-        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="110" />}>
-        <h4>Новая версия (базовый)</h4>
-        <div className="Cell__description">
-		5 рублей/слот
-		</div>
-        </Button>
-        <Separator style={{ margin: '12px 0' }} />
+                      
+                      <Button size="l" level="outline" component="xl" href="#">Купить </Button>
 
+                      <Button size="l" level="outline" component="xl" href="#"> Продавец</Button>
+                      
+                    </div>
+                                    </center>
+        <Separator style={{ margin: '12px 0' }} />
+		
+        
+        <Button level="tertiary" component="a" href="#">
+        <h2>Новая версия (базовый)</h2>
+        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
+        <div className="Cell__description">
+		Цена: 5 рублей/слот
+		</div>
+		<br/>
+		
+        </Button>
+        <center>
+        
+        <div>
+        
+                      
+                      <Button size="l" level="outline" component="xl" href="#">Купить </Button>
+
+                      <Button size="l" level="outline" component="xl" href="#"> Продавец</Button>
+                      
+                    </div>
+                                    </center>
+        <Separator style={{ margin: '12px 0' }} />
+		
+        
+        <Button level="tertiary" component="a" href="#">
+        <h2>Новая версия (базовый)</h2>
+        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
+        <div className="Cell__description">
+		Цена: 5 рублей/слот
+		</div>
+		<br/>
+		
+        </Button>
+        <center>
+        
+        <div>
+        
+                      
+                      <Button size="l" level="outline" component="xl" href="#">Купить </Button>
+
+                      <Button size="l" level="outline" component="xl" href="#"> Продавец</Button>
+                      
+                    </div>
+                                    </center>
+        <Separator style={{ margin: '12px 0' }} />
+		
+        
+        <Button level="tertiary" component="a" href="#">
+        <h2>Новая версия (базовый)</h2>
+        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
+        <div className="Cell__description">
+		Цена: 5 рублей/слот
+		</div>
+		<br/>
+		
+        </Button>
+        <center>
+        
+        <div>
+        
+                      
+                      <Button size="l" level="outline" component="xl" href="#">Купить </Button>
+
+                      <Button size="l" level="outline" component="xl" href="#"> Продавец</Button>
+                      
+                    </div>
+                                    </center>
+        <Separator style={{ margin: '12px 0' }} />
+        </center>
         </Group>
         
 	</Panel>

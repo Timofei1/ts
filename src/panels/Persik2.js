@@ -19,7 +19,7 @@ import { platform, IOS } from '@vkontakte/vkui';
 import HeaderButton from '@vkontakte/vkui/dist/components/HeaderButton/HeaderButton';
 import Icon28ChevronBack from '@vkontakte/icons/dist/28/chevron_back';
 import Icon24Back from '@vkontakte/icons/dist/24/back';
-import { ListItem, ModalCard } from '@vkontakte/vkui';
+import { ListItem, ModalCard, Switch, Checkbox, Footer, Tooltip, Radio } from '@vkontakte/vkui';
 import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
 import Separator from '@vkontakte/vkui/dist/components/Separator/Separator';
 import Icon28Messages from '@vkontakte/icons/dist/28/messages';
@@ -54,6 +54,17 @@ const Persik2 = ({ id, go, fetchedUser }) => (
 
         <Group title="Настройки">
         <Div>
+        <Cell asideContent={<Switch />}>
+            Уведомления
+        </Cell>
+        <Cell asideContent={<Switch />}>
+            Добавить в избранное
+        </Cell>
+        <Cell asideContent={<Switch />}>
+            Что то еще
+        </Cell>
+        <Separator style={{ margin: '12px 0' }} />
+        Тут что то будет
         </Div>
         </Group>
 
@@ -68,7 +79,7 @@ const Persik2 = ({ id, go, fetchedUser }) => (
     </Group>}
 
       <Group title="Обратная связь">
-      <Div>
+      
       <Cell
                   before={<Avatar size={72}
                   src="https://sun3-10.userapi.com/c855136/v855136589/18636c/1_D877Mj2bE.jpg" />}
@@ -77,36 +88,34 @@ const Persik2 = ({ id, go, fetchedUser }) => (
                   bottomContent={
                     <div style={{ display: 'flex' }}>
                       <Button size="m" component="a" href="https://vk.me/id288498260">Написать</Button>
-                      <Button size="m" level="secondary" style={{ marginLeft: 8 }} component="a" href="https://vk.com/id288498260">На страницу</Button>
+                      <Button size="m" level="secondary" style={{ marginLeft: 8 }} component="a" href="https://vk.com/id288498260">Перейти</Button>
                     </div>
                   }
                 >
                   Рылов Тимофей</Cell>
       <Separator style={{ margin: '12px 0' }} />
       <Div style={{display: 'flex'}}>
+      
       <Button size="l" level="outline" component="a" href="https://vk.cc/a8TT8i" before={
         <Icon28Messages />
       }>
-      
-      Наша беседа
+     
+      Беседа
       </Button>
-
+      
       <Separator style={{ margin: '12px 0' }} />
+      
       <Button size="l" level="outline" component="a" href="https://vk.cc/a8TT8i" before={
         <Icon28UsersOutline />
       }>
-      Наше сообщество
+      Сообщество
       </Button>
-      </Div>
+      <br/>
+      
       </Div>
       </Group>
 
-      {
-                id === 288498260 &&
-                  <Button level="tertiary">Тест кнопка</Button>
-      }
-
-      
+      <Footer>Версия: 1.0</Footer>
 
 	</Panel>
 
