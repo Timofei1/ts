@@ -29,7 +29,7 @@ const Home = ({ id, go, fetchedUser, loading }) => (
   
 
 <Panel id={id}>
-		<PanelHeader left={<PanelHeaderBack />}>Купить TS3</PanelHeader>
+		<PanelHeader>Купить TS3</PanelHeader>
 		 
        <Tabbar>
           <TabbarItem fill="#0000FF"

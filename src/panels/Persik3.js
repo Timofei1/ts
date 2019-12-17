@@ -53,17 +53,17 @@ const Persik3 = ({ id, go, fetchedUser }) => (
         </Tabbar>
          
         <Gallery
-                slideWidth="90%"
+                slideWidth="80%"
                 style={{ height: 150 }}
                 bullets="dark"
               >
-                <div style={{ backgroundColor: 'var(--destructive)' }} >
+                <div>
                 <img src="https://sun9-40.userapi.com/c857428/v857428281/129f55/z9pT8aN9oI0.jpg" width="295" />
                 </div>
-                <div style={{ backgroundColor: 'var(--button_commerce_background)' }} >
+                <div>
                 <img src="https://sun9-49.userapi.com/c857320/v857320281/87407/cUS8JspjNQU.jpg" width="295" />
                 </div>
-                <div style={{ backgroundColor: 'var(--accent)' }} >
+                <div>
                 <img src="https://sun9-25.userapi.com/c858424/v858424182/35bd1/TbJ3vc2RMDA.jpg" />
                 </div>
               </Gallery>

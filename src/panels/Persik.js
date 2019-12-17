@@ -53,14 +53,7 @@ const Persik = ({ id, go, fetchedUser }) => (
           ><Icon28SettingsOutline /></TabbarItem>
         </Tabbar>
         
-        <Group>
-           <Div>
-           <center>
-            <Button component="a" href="https://www.teamspeak.com/ru/downloads/">Скачать TS3 для ПК</Button>
-            </center>
-           </Div>
-        </Group>
-
+     
         <Group title="Основное понятие">
            <Div>
            TeamSpeak — компьютерная программа, предназначенная для голосового общения в сети Интернет посредством технологии VoIP.
@@ -71,6 +64,35 @@ const Persik = ({ id, go, fetchedUser }) => (
            <Div>
             Программы этого типа предназначены прежде всего для геймеров, но могут использоваться везде, где необходима голосовая связь и координация большой группы людей.
            </Div>
+        </Group>
+
+        <Group title="Ссылки на ресурсы">
+        <div>
+        <center>
+            <br/>
+            <Button size="xl" level="2" component="a" href="https://www.teamspeak.com">Оффициальный сайт</Button>
+            <br/>
+            <Button size="xl" level="2" component="a" href="#">Статья в википедии</Button>
+            <br/>
+        </center>
+        </div>
+        </Group>
+        
+        <Group title="Ссылки на скачивание">
+        <div>
+        <center>
+            <br/>
+            <Button size="xl" level="2" component="a" href="https://www.teamspeak.com/ru/downloads/">Скачать TS3 для ПК</Button>
+            <br/>
+            <Button size="xl" level="2" component="a" href="#">Скачать TS3 для Android</Button>
+            <br/>
+            <Button size="xl" level="2" component="a" href="#">Скачать TS3 для IOS</Button>
+            <br/>
+            </center>
+        </div>
+        <br/>
+        <br/>
+        <br/>
         </Group>
 	</Panel>
 );

@@ -63,24 +63,28 @@ const Persik1 = ({ id, go, fetchedUser }) => (
         <h3>Название сервера</h3>
         <br/>
         <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
+        <br/>
         Айпи: <b>тут будет айпи</b><br/>
         Описание: <i>Тут будет описание</i>
         <Separator style={{ margin: '12px 0' }} />
         <h3>Название сервера</h3>
         <br/>
         <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
+        <br/>
         Айпи: <b>тут будет айпи</b><br/>
         Описание: <i>Тут будет описание</i>
         <Separator style={{ margin: '12px 0' }} />
         <h3>Название сервера</h3>
         <br/>
         <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
+        <br/>
         Айпи: <b>тут будет айпи</b><br/>
         Описание: <i>Тут будет описание</i>
         <Separator style={{ margin: '12px 0' }} />
         <h3>Название сервера</h3>
         <br/>
         <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
+        <br/>
         Айпи: <b>тут будет айпи</b><br/>
         Описание: <i>Тут будет описание</i>
         <Separator style={{ margin: '12px 0' }} />
