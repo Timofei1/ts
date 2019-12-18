@@ -25,7 +25,8 @@ import Separator from '@vkontakte/vkui/dist/components/Separator/Separator';
 import Icon28Messages from '@vkontakte/icons/dist/28/messages';
 import Icon28UsersOutline from '@vkontakte/icons/dist/28/users_outline';
 import Icon28ArticleOutline from '@vkontakte/icons/dist/28/article_outline';
-
+import Icon28ReportOutline from '@vkontakte/icons/dist/28/report_outline';
+import Icon28Mention from '@vkontakte/icons/dist/28/mention';
 
 import persik from '../img/persik.png';
 import './Persik.css';
@@ -57,22 +58,27 @@ const Persik2 = ({ id, go, fetchedUser }) => (
             data-to="persik2"
           ><Icon28SettingsOutline fill="#0000FF" /></TabbarItem>
         </Tabbar>
-         
-
-
-        <Group title="Настройки">
+     
+        <Group title="Ещё">
         <Div>
         <Cell asideContent={<Switch />}>
-            Уведомления
+           Мне нравится
         </Cell>
-        <Cell asideContent={<Switch />}>
-            Добавить в избранное
-        </Cell>
-        <Cell asideContent={<Switch />}>
-            Что то еще
-        </Cell>
-        <Separator style={{ margin: '12px 0' }} />
-        Тут что то будет
+              <Separator style={{ margin: '12px 0' }} />
+
+        <Button size="xl" level="2" component="a" href="#" before={
+        <Icon28Mention />
+      }>
+     
+      Оставить отзыв
+      </Button>
+      <br/>
+      <Button size="xl" level="2" component="a" href="#" before={
+        <Icon28ReportOutline />
+      }>
+     
+      Нашли баг?
+      </Button>
         </Div>
         </Group>
 
@@ -103,6 +109,9 @@ const Persik2 = ({ id, go, fetchedUser }) => (
                   Рылов Тимофей</Cell>
       <Separator style={{ margin: '12px 0' }} />
       <Div style={{display: 'flex'}}>
+      <center>
+      &nbsp;
+      &nbsp;
       
       <Button size="l" level="outline" component="a" href="https://vk.cc/a8TT8i" before={
         <Icon28Messages />
@@ -110,16 +119,16 @@ const Persik2 = ({ id, go, fetchedUser }) => (
      
       Беседа
       </Button>
-      
-      <Separator style={{ margin: '12px 0' }} />
-      
+      &nbsp;
+      &nbsp;
+
       <Button size="l" level="outline" component="a" href="https://vk.cc/a8TT8i" before={
         <Icon28UsersOutline />
       }>
       Сообщество
       </Button>
       <br/>
-      
+      </center>
       </Div>
       </Group>
 

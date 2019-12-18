@@ -50,7 +50,7 @@ const App = () => {
 	return (
 		<View activePanel={activePanel} popout={popout}>
 		    
-			<Home id='home' fetchedUser={fetchedUser} go={go} />
+			<Home id='home' go={go} />
 			<Persik id='persik' go={go} />
 			<Persik1 id='persik1' go={go} />
 			<Persik2 id='persik2' fetchedUser={fetchedUser} go={go} />

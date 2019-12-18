@@ -29,12 +29,12 @@ import './Persik.css';
 const osName = platform();
 
 const Persik1 = ({ id, go, fetchedUser }) => (
-	<Panel id={id}>
-		<PanelHeader>
+  <Panel id={id}>
+    <PanelHeader>
     Сервера
     </PanelHeader>
       <Search />    
-		<Tabbar>
+    <Tabbar>
           <TabbarItem
             onClick={go}
             data-to="home"
@@ -96,20 +96,20 @@ const Persik1 = ({ id, go, fetchedUser }) => (
         </Div>
         </Group>
        
-	</Panel>
+  </Panel>
 );
 
 Persik1.propTypes = {
-	id: PropTypes.string.isRequired,
-	go: PropTypes.func.isRequired,
-	fetchedUser: PropTypes.shape({
-		photo_200: PropTypes.string,
-		first_name: PropTypes.string,
-		last_name: PropTypes.string,
-		city: PropTypes.shape({
-			title: PropTypes.string,
-		}),
-	}),
+  id: PropTypes.string.isRequired,
+  go: PropTypes.func.isRequired,
+  fetchedUser: PropTypes.shape({
+    photo_200: PropTypes.string,
+    first_name: PropTypes.string,
+    last_name: PropTypes.string,
+    city: PropTypes.shape({
+      title: PropTypes.string,
+    }),
+  }),
 };
 
 export default Persik1;

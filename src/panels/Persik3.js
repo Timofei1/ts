@@ -71,6 +71,7 @@ const Persik3 = ({ id, go, fetchedUser }) => (
         <Div>
         <div style={{ display: 'flex' }}>
         <b>Версия 1.0</b><h> </h><div className="Cell__description">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 18.12.2019</div>
+        
         </div>
         </Div>
         <Div>
