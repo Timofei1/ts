@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import Panel from '@vkontakte/vkui/dist/components/Panel/Panel';
 import PanelHeader from '@vkontakte/vkui/dist/components/PanelHeader/PanelHeader';
@@ -21,23 +21,15 @@ import { Separator } from '@vkontakte/vkui';
 import { PanelHeaderBack, Epic, View, Switch, platform } from '@vkontakte/vkui';
 import PanelSpinner from '@vkontakte/vkui/dist/components/PanelSpinner/PanelSpinner';
 import Icon28ArticleOutline from '@vkontakte/icons/dist/28/article_outline';
-import connect from '@vkontakte/vk-connect';
 
 
-const osName = platform();
-const getId = async function (setId) {
-  const userInfo = await connect.send.getUserInfo();
-  setId(userInfo.id);
-  console.log(userInfo.id);
-};
 
 
-const Home = ({go}) => {
-  const [id, setId] = useState(0);
-  useEffect(() => {
-    getId(setId);
-  },[]);
-  return(  
+
+
+
+const Home = ({ go, id}) => (
+  
   
 
 <Panel id={id}>
@@ -256,13 +248,10 @@ const Home = ({go}) => {
         <br/>
         </Group>
          
-         {
-                id === 288498260 &&
-                  <button>Тест кнопка</button>
-          }
+        
 	</Panel>
 );
-};
+
 
 
 
