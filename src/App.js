@@ -20,6 +20,7 @@ import Persik1 from './panels/Persik1';
 import Persik2 from './panels/Persik2';
 import Persik3 from './panels/Persik3';
 import Persik4 from './panels/Persik4';
+import Persik5 from './panels/Persik4';
 
 const App = () => {
 	const [activePanel, setActivePanel] = useState('home');
@@ -55,6 +56,7 @@ const App = () => {
 			<Persik2 id='persik2' fetchedUser={fetchedUser} go={go} />
 			<Persik3 id='persik3' go={go} />
 			<Persik4 id='persik4' go={go} />
+			<Persik5 id='persik5' go={go} />
 		</View>
 	);
 

@@ -17,20 +17,20 @@ import Icon28SettingsOutline from '@vkontakte/icons/dist/28/settings_outline';
 import Icon28Game from '@vkontakte/icons/dist/28/game';
 import HorizontalScroll from '@vkontakte/vkui/dist/components/HorizontalScroll/HorizontalScroll';
 import Spinner from '@vkontakte/vkui/dist/components/Spinner/Spinner'
-import { Separator } from '@vkontakte/vkui';
+import { Separator, platform } from '@vkontakte/vkui';
 import { PanelHeaderBack, Epic, View } from '@vkontakte/vkui';
 import PanelSpinner from '@vkontakte/vkui/dist/components/PanelSpinner/PanelSpinner';
 import Icon28ArticleOutline from '@vkontakte/icons/dist/28/article_outline';
 
+import persik from '../img/persik.png';
+import './Persik.css';
 
-const Home = ({ id, go, fetchedUser, loading }) => (
+const osName = platform();
 
-       
-  
-
-<Panel id={id}>
-		<PanelHeader>Купить TS3</PanelHeader>
-		 
+const Persik5 = ({ id, go, fetchedUser }) => (
+	<Panel id={id}>
+    <PanelHeader>Купить TS3</PanelHeader>
+     
        <Tabbar>
           <TabbarItem fill="#0000FF"
             onClick={go}
@@ -63,7 +63,7 @@ const Home = ({ id, go, fetchedUser, loading }) => (
                     onClick={go}
                     data-to="home"
                   >
-                    <u>Сервера</u>
+                    Сервера
                   </TabsItem>
                   <TabsItem
                     onClick={go}
@@ -75,21 +75,15 @@ const Home = ({ id, go, fetchedUser, loading }) => (
                     onClick={go}
                     data-to="persik5"
                   >
-                    Прочее
+                    <u>Прочее</u>
                   </TabsItem>
                 </HorizontalScroll>
             </Tabs>
             
            
         </FixedLayout>
-        
 
         
-        <Group title="Примечание">
-        <Div>
-        В этой категории цены указаны за 1 слот.
-        </Div>
-        </Group>
         
         <Group>
         <center>
@@ -97,10 +91,10 @@ const Home = ({ id, go, fetchedUser, loading }) => (
         <h2>Новая версия (базовый)</h2>
         <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
         <div className="Cell__description">
-		Цена: 5 рублей/слот
-		</div>
-		<br/>
-		
+    Цена: 5 рублей/слот
+    </div>
+    <br/>
+    
         </Button>
         <center>
         
@@ -115,42 +109,17 @@ const Home = ({ id, go, fetchedUser, loading }) => (
                       
                     </div>
                                     </center>
-		<Separator style={{ margin: '12px 0' }} />
+    <Separator style={{ margin: '12px 0' }} />
 
         
         <Button level="tertiary" component="xl" href="#">
         <h2>Новая версия (базовый)</h2>
         <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
         <div className="Cell__description">
-		Цена: 5 рублей/слот
-		</div>
-		<br/>
-		
-        </Button>
-        <center>
-        
-        <div>
-        
-                      
-                      <Button size="l" level="outline" component="a" href="#">Купить </Button>
-
-                      <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
-
-                      <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
-                      
-                    </div>
-                                    </center>
-        <Separator style={{ margin: '12px 0' }} />
-		
-        
-        <Button level="tertiary" component="xl" href="#">
-        <h2>Новая версия (базовый)</h2>
-        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
-        <div className="Cell__description">
-		Цена: 5 рублей/слот
-		</div>
-		<br/>
-		
+    Цена: 5 рублей/слот
+    </div>
+    <br/>
+    
         </Button>
         <center>
         
@@ -166,16 +135,16 @@ const Home = ({ id, go, fetchedUser, loading }) => (
                     </div>
                                     </center>
         <Separator style={{ margin: '12px 0' }} />
-		
+    
         
         <Button level="tertiary" component="xl" href="#">
         <h2>Новая версия (базовый)</h2>
         <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
         <div className="Cell__description">
-		Цена: 5 рублей/слот
-		</div>
-		<br/>
-		
+    Цена: 5 рублей/слот
+    </div>
+    <br/>
+    
         </Button>
         <center>
         
@@ -191,16 +160,41 @@ const Home = ({ id, go, fetchedUser, loading }) => (
                     </div>
                                     </center>
         <Separator style={{ margin: '12px 0' }} />
-		
+    
         
         <Button level="tertiary" component="xl" href="#">
         <h2>Новая версия (базовый)</h2>
         <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
         <div className="Cell__description">
-		Цена: 5 рублей/слот
-		</div>
-		<br/>
-		
+    Цена: 5 рублей/слот
+    </div>
+    <br/>
+    
+        </Button>
+        <center>
+        
+        <div>
+        
+                      
+                      <Button size="l" level="outline" component="a" href="#">Купить </Button>
+
+                      <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
+
+                      <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
+                      
+                    </div>
+                                    </center>
+        <Separator style={{ margin: '12px 0' }} />
+    
+        
+        <Button level="tertiary" component="xl" href="#">
+        <h2>Новая версия (базовый)</h2>
+        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
+        <div className="Cell__description">
+    Цена: 5 рублей/слот
+    </div>
+    <br/>
+    
         </Button>
         <center>
         
@@ -223,14 +217,10 @@ const Home = ({ id, go, fetchedUser, loading }) => (
         <br/>
         <br/>
         </Group>
-        
 	</Panel>
 );
 
-
-
-
-Home.propTypes = {
+Persik5.propTypes = {
 	id: PropTypes.string.isRequired,
 	go: PropTypes.func.isRequired,
 	fetchedUser: PropTypes.shape({
@@ -243,4 +233,4 @@ Home.propTypes = {
 	}),
 };
 
-export default Home;
+export default Persik5;
