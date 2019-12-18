@@ -84,11 +84,6 @@ const Persik5 = ({ id, go, fetchedUser }) => (
         </FixedLayout>
 
         <Group>
-        <br/>
-        <br/>
-        </Group>
-        
-        <Group>
         <center>
         <Button level="tertiary" component="xl" href="#">
         <h2>Новая версия (базовый)</h2>
@@ -105,9 +100,9 @@ const Persik5 = ({ id, go, fetchedUser }) => (
         
                       
                       <Button size="l" level="outline" component="a" href="#">Купить </Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
                       
                     </div>
@@ -130,9 +125,9 @@ const Persik5 = ({ id, go, fetchedUser }) => (
         
                       
                       <Button size="l" level="outline" component="a" href="#">Купить </Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
                       
                     </div>
@@ -155,9 +150,9 @@ const Persik5 = ({ id, go, fetchedUser }) => (
         
                       
                       <Button size="l" level="outline" component="a" href="#">Купить </Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
                       
                     </div>
@@ -180,9 +175,9 @@ const Persik5 = ({ id, go, fetchedUser }) => (
         
                       
                       <Button size="l" level="outline" component="a" href="#">Купить </Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
                       
                     </div>
@@ -205,9 +200,9 @@ const Persik5 = ({ id, go, fetchedUser }) => (
         
                       
                       <Button size="l" level="outline" component="a" href="#">Купить </Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
-
+                       &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
                       
                     </div>

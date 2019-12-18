@@ -104,9 +104,9 @@ const Persik4 = ({ id, go, fetchedUser }) => (
         
                       
                       <Button size="l" level="outline" component="a" href="#">Купить </Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
                       
                     </div>
@@ -129,9 +129,9 @@ const Persik4 = ({ id, go, fetchedUser }) => (
         
                       
                       <Button size="l" level="outline" component="a" href="#">Купить </Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
                       
                     </div>
@@ -154,9 +154,9 @@ const Persik4 = ({ id, go, fetchedUser }) => (
         
                       
                       <Button size="l" level="outline" component="a" href="#">Купить </Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
                       
                     </div>
@@ -179,9 +179,9 @@ const Persik4 = ({ id, go, fetchedUser }) => (
         
                       
                       <Button size="l" level="outline" component="a" href="#">Купить </Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
                       
                     </div>
@@ -204,9 +204,9 @@ const Persik4 = ({ id, go, fetchedUser }) => (
         
                       
                       <Button size="l" level="outline" component="a" href="#">Купить </Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
-
+                       &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
                       
                     </div>

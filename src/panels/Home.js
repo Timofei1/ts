@@ -108,9 +108,9 @@ const Home = ({ id, go, fetchedUser, loading }) => (
         
                       
                       <Button size="l" level="outline" component="a" href="#">Купить </Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
                       
                     </div>
@@ -133,9 +133,9 @@ const Home = ({ id, go, fetchedUser, loading }) => (
         
                       
                       <Button size="l" level="outline" component="a" href="#">Купить </Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
                       
                     </div>
@@ -158,9 +158,9 @@ const Home = ({ id, go, fetchedUser, loading }) => (
         
                       
                       <Button size="l" level="outline" component="a" href="#">Купить </Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
                       
                     </div>
@@ -183,9 +183,9 @@ const Home = ({ id, go, fetchedUser, loading }) => (
         
                       
                       <Button size="l" level="outline" component="a" href="#">Купить </Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
                       
                     </div>
@@ -208,9 +208,9 @@ const Home = ({ id, go, fetchedUser, loading }) => (
         
                       
                       <Button size="l" level="outline" component="a" href="#">Купить </Button>
-
+                      &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
-
+                       &nbsp;
                       <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
                       
                     </div>
