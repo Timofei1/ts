@@ -82,11 +82,9 @@ const Persik4 = ({ id, go, fetchedUser }) => (
             
            
         </FixedLayout>
-
-        <Group title="Примечание">
-        <Div>
-        В этой категории цены указаны за 1 слот.
-        </Div>
+        <Group>
+        <br/>
+        <br/>
         </Group>
         
         <Group>

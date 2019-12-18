@@ -28,7 +28,7 @@ import './Persik.css';
 const osName = platform();
 
 const Persik5 = ({ id, go, fetchedUser }) => (
-	<Panel id={id}>
+  <Panel id={id}>
     <PanelHeader>Купить TS3</PanelHeader>
      
        <Tabbar>
@@ -83,7 +83,10 @@ const Persik5 = ({ id, go, fetchedUser }) => (
            
         </FixedLayout>
 
-        
+        <Group>
+        <br/>
+        <br/>
+        </Group>
         
         <Group>
         <center>
@@ -217,20 +220,20 @@ const Persik5 = ({ id, go, fetchedUser }) => (
         <br/>
         <br/>
         </Group>
-	</Panel>
+  </Panel>
 );
 
 Persik5.propTypes = {
-	id: PropTypes.string.isRequired,
-	go: PropTypes.func.isRequired,
-	fetchedUser: PropTypes.shape({
-		photo_200: PropTypes.string,
-		first_name: PropTypes.string,
-		last_name: PropTypes.string,
-		city: PropTypes.shape({
-			title: PropTypes.string,
-		}),
-	}),
+  id: PropTypes.string.isRequired,
+  go: PropTypes.func.isRequired,
+  fetchedUser: PropTypes.shape({
+    photo_200: PropTypes.string,
+    first_name: PropTypes.string,
+    last_name: PropTypes.string,
+    city: PropTypes.shape({
+      title: PropTypes.string,
+    }),
+  }),
 };
 
 export default Persik5;
