@@ -15,7 +15,7 @@ import Icon28MarketOutline from '@vkontakte/icons/dist/28/market_outline';
 import Icon28HelpOutline from '@vkontakte/icons/dist/28/help_outline';
 import Icon28SettingsOutline from '@vkontakte/icons/dist/28/settings_outline';
 import Icon28Game from '@vkontakte/icons/dist/28/game';
-import { platform, IOS } from '@vkontakte/vkui';
+import { platform, IOS, Separator } from '@vkontakte/vkui';
 import HeaderButton from '@vkontakte/vkui/dist/components/HeaderButton/HeaderButton';
 import Icon28ChevronBack from '@vkontakte/icons/dist/28/chevron_back';
 import Icon24Back from '@vkontakte/icons/dist/24/back';
@@ -94,6 +94,43 @@ const Persik = ({ id, go, fetchedUser }) => (
         <br/>
         <br/>
         </Group>
+
+        <Group title="Плагины">
+        <Div>
+        <i>На TS3 так же имеются плагины. Они встраиваются в клиент и расширяют его функционал, но приложение на Android и IOS пока что не поддерживает плагины</i><br/><br/>
+        <Button size="xl" level="2" component="a" href="#">Перейти к плагинам</Button>
+        </Div>
+        </Group>
+
+        <Group title="OwerWolf">
+        <Div>
+        <b>Чтобы упросить работу с TeamSpeak есть OwerWolf. Это сборник плагинов для игр. В OwerWolf можно установить так называемый "TeamSpesk OwerLay" и разговаривать с друзьями во время игры. Туда можно скачивать плагины и для других игр, например: Minecraft - Есть сборник крафтов и др.</b><br/><br/>
+        <Button size="xl" level="2" component="a" href="#">Скачать OwerWolf</Button>
+        <br/>
+        <center>
+        Так же есть и обычающее видео.<br/><br/>
+        <iframe width="300" height="260" src="https://www.youtube.com/embed/Ks5po965K_I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </center>
+        </Div>
+        </Group>
+
+        <Group title="Полезные видеоролики">
+        <Div>
+        <center>
+        <iframe width="300" height="260" src="https://www.youtube.com/embed/Del1IEHmJ5o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <Separator style={{ margin: '12px 0' }} />
+        <iframe width="300" height="260" src="https://www.youtube.com/embed/TTASrXvUqas" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <Separator style={{ margin: '12px 0' }} />
+        <iframe width="300" height="260" src="https://www.youtube.com/embed/rvJrM88zgS4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </center>
+        </Div>
+        <br/>
+        <br/>
+        
+        </Group>
+
+
 	</Panel>
 );
 
