@@ -58,7 +58,7 @@ const Persik1 = ({ id, go, fetchedUser }) => (
         </Tabbar>
         <Group>
         <Div>
-        <Button size="xl" component="a" href="#">Добавить свой TS3 сервер</Button> 
+        <Button size="xl" component="a" href="https://vk.com/topic-184075993_40901326">Добавить свой TS3 сервер</Button> 
         </Div>
         </Group>
         <Group title="Каталог серверов">

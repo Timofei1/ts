@@ -19,7 +19,7 @@ import { platform, IOS } from '@vkontakte/vkui';
 import HeaderButton from '@vkontakte/vkui/dist/components/HeaderButton/HeaderButton';
 import Icon28ChevronBack from '@vkontakte/icons/dist/28/chevron_back';
 import Icon24Back from '@vkontakte/icons/dist/24/back';
-import { ListItem, ModalCard, Switch, Checkbox, Footer, Tooltip, Radio, Gallery } from '@vkontakte/vkui';
+import { ListItem, ModalCard, Switch, Checkbox, Footer, Tooltip, Radio, Gallery, FormStatus, Header } from '@vkontakte/vkui';
 import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
 import Separator from '@vkontakte/vkui/dist/components/Separator/Separator';
 import Icon28Messages from '@vkontakte/icons/dist/28/messages';
@@ -29,6 +29,7 @@ import Icon28ReportOutline from '@vkontakte/icons/dist/28/report_outline';
 import Icon28Mention from '@vkontakte/icons/dist/28/mention';
 import Icon28ServicesOutline from '@vkontakte/icons/dist/28/services_outline';
 import Icon28KeyboardOutline from '@vkontakte/icons/dist/28/keyboard_outline';
+import Icon32Gift from '@vkontakte/icons/dist/32/gift';
 
 import persik from '../img/persik.png';
 import './Persik.css';
@@ -60,8 +61,13 @@ const Persik2 = ({ id, go, fetchedUser }) => (
             data-to="persik2"
           ><Icon28SettingsOutline fill="#0000FF" /></TabbarItem>
         </Tabbar>
+        
+        <Group>
+        <FormStatus title="С Новым Годом!" state="default">Разработчики приложения поздравляют вас в новым годом! Удачного использования приложения! Успехов!
+      </FormStatus>
+      
      
-        <Group title="Ещё">
+        <Header level="secondary">Ещё</Header>
         <Div>
         <Button size="xl" level="2" component="a" href="https://vk.com/topic-184075993_40901326" before={
           <Icon28KeyboardOutline />
