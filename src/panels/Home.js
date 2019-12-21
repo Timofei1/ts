@@ -91,6 +91,10 @@ const Home = ({ go, id}) => (
         
         <Group>
         <center>
+        
+        <br/>
+        <br/>
+        <br/>
         <Button level="tertiary" component="xl" href="#">
         <h2>Новая версия (базовый)</h2>
         <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
@@ -110,11 +114,11 @@ const Home = ({ go, id}) => (
         <div>
         
                       
-                      <Button size="l" level="outline" component="a" href="#">Купить </Button>
+                      <Button size="l" level="outline" component="a" href="https://vk.com/market-184075993?w=product-184075993_4152924%2Fquery">Купить </Button>
                       &nbsp;
-                      <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
+                      <Button size="l" level="outline" component="a" href="https://vk.com/hostingteamspeak"> Продавец</Button>
                       &nbsp;
-                      <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
+                      <Button size="l" level="outline" component="a" href="https://vk.com/topic-184075993_40405305"> Отзывы</Button>
                       
                     </div>
                                     </center>
@@ -122,7 +126,7 @@ const Home = ({ go, id}) => (
 
         
         <Button level="tertiary" component="xl" href="#">
-        <h2>Новая версия (базовый)</h2>
+        <h2>Новая версия (с AHTP)</h2>
         <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
         <div className="Cell__description">
     Цена: 5 рублей/слот
@@ -140,11 +144,11 @@ const Home = ({ go, id}) => (
         <div>
         
                       
-                      <Button size="l" level="outline" component="a" href="#">Купить </Button>
+                      <Button size="l" level="outline" component="a" href="https://vk.com/market-184075993?w=product-184075993_4152926%2Fquery">Купить </Button>
                       &nbsp;
-                      <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
+                      <Button size="l" level="outline" component="a" href="https://vk.com/hostingteamspeak"> Продавец</Button>
                       &nbsp;
-                      <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
+                      <Button size="l" level="outline" component="a" href="https://vk.com/topic-184075993_40405305"> Отзывы</Button>
                       
                     </div>
                                     </center>
@@ -153,7 +157,7 @@ const Home = ({ go, id}) => (
     
         
         <Button level="tertiary" component="xl" href="#">
-        <h2>Новая версия (базовый)</h2>
+        <h2>Старые версии</h2>
         <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
         <div className="Cell__description">
     Цена: 5 рублей/слот
@@ -171,11 +175,11 @@ const Home = ({ go, id}) => (
         <div>
         
                       
-                      <Button size="l" level="outline" component="a" href="#">Купить </Button>
+                      <Button size="l" level="outline" component="a" href="https://vk.com/market-184075993?w=product-184075993_4152928%2Fquery">Купить </Button>
                       &nbsp;
-                      <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
+                      <Button size="l" level="outline" component="a" href="https://vk.com/hostingteamspeak"> Продавец</Button>
                       &nbsp;
-                      <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
+                      <Button size="l" level="outline" component="a" href="https://vk.com/topic-184075993_40405305"> Отзывы</Button>
                       
                     </div>
                                     </center>
@@ -183,10 +187,10 @@ const Home = ({ go, id}) => (
     
         
         <Button level="tertiary" component="xl" href="#">
-        <h2>Новая версия (базовый)</h2>
+        <h2>Старые версии(Акция)</h2>
         <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
         <div className="Cell__description">
-    Цена: 5 рублей/слот
+    Цена: 50 рублей/100 слотов
     </div>
     <br/>
     
@@ -201,11 +205,11 @@ const Home = ({ go, id}) => (
         <div>
         
                       
-                      <Button size="l" level="outline" component="a" href="#">Купить </Button>
+                      <Button size="l" level="outline" component="a" href="https://vk.com/market-184075993?w=product-184075993_4152929%2Fquery">Купить </Button>
                       &nbsp;
-                      <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
+                      <Button size="l" level="outline" component="a" href="https://vk.com/hostingteamspeak"> Продавец</Button>
                       &nbsp;
-                      <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
+                      <Button size="l" level="outline" component="a" href="https://vk.com/topic-184075993_40405305"> Отзывы</Button>
                       
                     </div>
                                     </center>
@@ -213,10 +217,10 @@ const Home = ({ go, id}) => (
     
         
         <Button level="tertiary" component="xl" href="#">
-        <h2>Новая версия (базовый)</h2>
+        <h2>Новая версия (БЛ)</h2>
         <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
         <div className="Cell__description">
-    Цена: 5 рублей/слот
+    Цена: 2.5 рублей/слот
     </div>
     <br/>
     
@@ -231,11 +235,40 @@ const Home = ({ go, id}) => (
         <div>
         
                       
-                      <Button size="l" level="outline" component="a" href="#">Купить </Button>
+                      <Button size="l" level="outline" component="a" href="https://vk.com/market-184075993?w=product-184075993_4152931%2Fquery">Купить </Button>
                       &nbsp;
-                      <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
+                      <Button size="l" level="outline" component="a" href="https://vk.com/hostingteamspeak"> Продавец</Button>
                        &nbsp;
-                      <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
+                      <Button size="l" level="outline" component="a" href="https://vk.com/topic-184075993_40405305"> Отзывы</Button>
+                      
+                    </div>
+                                    </center>
+        <Separator style={{ margin: '12px 0' }} />
+
+        <Button level="tertiary" component="xl" href="#">
+        <h2>Новая версия (БЛ Огр.)</h2>
+        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
+        <div className="Cell__description">
+    Цена: см в описании товара
+    </div>
+    <br/>
+    
+        </Button>
+        <Div>
+        <Cell asideContent={<Switch />}>
+           <b>Мне нравится товар</b>
+        </Cell>
+        </Div>
+        <center>
+        
+        <div>
+        
+                      
+                      <Button size="l" level="outline" component="a" href="https://vk.com/market-184075993?w=product-184075993_4153003%2Fquery">Купить </Button>
+                      &nbsp;
+                      <Button size="l" level="outline" component="a" href="https://vk.com/hostingteamspeak"> Продавец</Button>
+                       &nbsp;
+                      <Button size="l" level="outline" component="a" href="https://vk.com/topic-184075993_40405305"> Отзывы</Button>
                       
                     </div>
                                     </center>

@@ -82,14 +82,17 @@ const Persik5 = ({ id, go, fetchedUser }) => (
             
            
         </FixedLayout>
-
+        
         <Group>
+        <br/>
+        <br/>
+        <br/>
         <center>
         <Button level="tertiary" component="xl" href="#">
-        <h2>Новая версия (базовый)</h2>
-        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
+        <h2>Бейджик Gamescom 2018</h2>
+        <img src="https://sun9-62.userapi.com/c858128/v858128583/8dd6/TElIeE1Zg2g.jpg" width="270" />
         <div className="Cell__description">
-    Цена: 5 рублей/слот
+    Цена: 7 рублей
     </div>
     <br/>
     
@@ -104,11 +107,11 @@ const Persik5 = ({ id, go, fetchedUser }) => (
         <div>
         
                       
-                      <Button size="l" level="outline" component="a" href="#">Купить </Button>
+                      <Button size="l" level="outline" component="a" href="https://vk.com/market-184075993?w=product-184075993_3590200%2Fquery">Купить </Button>
                       &nbsp;
-                      <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
-                      &nbsp;
-                      <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
+                      <Button size="l" level="outline" component="a" href="https://vk.com/hostingteamspeak"> Продавец</Button>
+                       &nbsp;
+                      <Button size="l" level="outline" component="a" href="https://vk.com/topic-184075993_40405305"> Отзывы</Button>
                       
                     </div>
                                     </center>
@@ -116,8 +119,8 @@ const Persik5 = ({ id, go, fetchedUser }) => (
 
         
         <Button level="tertiary" component="xl" href="#">
-        <h2>Новая версия (базовый)</h2>
-        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
+        <h2>Бейджик RB TV</h2>
+        <img src="https://sun9-72.userapi.com/c853528/v853528583/84d8f/kSmake32R-A.jpg" width="270" />
         <div className="Cell__description">
     Цена: 5 рублей/слот
     </div>
@@ -134,106 +137,18 @@ const Persik5 = ({ id, go, fetchedUser }) => (
         <div>
         
                       
-                      <Button size="l" level="outline" component="a" href="#">Купить </Button>
+                      <Button size="l" level="outline" component="a" href="https://vk.com/market-184075993?w=product-184075993_3590204%2Fquery">Купить </Button>
                       &nbsp;
-                      <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
-                      &nbsp;
-                      <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
-                      
-                    </div>
-                                    </center>
-        
-        <Separator style={{ margin: '12px 0' }} />
-    
-        
-        <Button level="tertiary" component="xl" href="#">
-        <h2>Новая версия (базовый)</h2>
-        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
-        <div className="Cell__description">
-    Цена: 5 рублей/слот
-    </div>
-    <br/>
-    
-        </Button>
-        <Div>
-        <Cell asideContent={<Switch />}>
-           <b>Мне нравится товар</b>
-        </Cell>
-        </Div>
-        <center>
-        
-        <div>
-        
-                      
-                      <Button size="l" level="outline" component="a" href="#">Купить </Button>
-                      &nbsp;
-                      <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
-                      &nbsp;
-                      <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
-                      
-                    </div>
-                                    </center>
-        <Separator style={{ margin: '12px 0' }} />
-    
-        
-        <Button level="tertiary" component="xl" href="#">
-        <h2>Новая версия (базовый)</h2>
-        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
-        <div className="Cell__description">
-    Цена: 5 рублей/слот
-    </div>
-    <br/>
-    
-        </Button>
-        <Div>
-        <Cell asideContent={<Switch />}>
-           <b>Мне нравится товар</b>
-        </Cell>
-        </Div>
-        <center>
-        
-        <div>
-        
-                      
-                      <Button size="l" level="outline" component="a" href="#">Купить </Button>
-                      &nbsp;
-                      <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
-                      &nbsp;
-                      <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
-                      
-                    </div>
-                                    </center>
-        <Separator style={{ margin: '12px 0' }} />
-    
-        
-        <Button level="tertiary" component="xl" href="#">
-        <h2>Новая версия (базовый)</h2>
-        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
-        <div className="Cell__description">
-    Цена: 5 рублей/слот
-    </div>
-    <br/>
-    
-        </Button>
-        <Div>
-        <Cell asideContent={<Switch />}>
-           <b>Мне нравится товар</b>
-        </Cell>
-        </Div>
-        <center>
-        
-        <div>
-        
-                      
-                      <Button size="l" level="outline" component="a" href="#">Купить </Button>
-                      &nbsp;
-                      <Button size="l" level="outline" component="a" href="#"> Продавец</Button>
+                      <Button size="l" level="outline" component="a" href="https://vk.com/hostingteamspeak"> Продавец</Button>
                        &nbsp;
-                      <Button size="l" level="outline" component="a" href="#"> Отзывы</Button>
+                      <Button size="l" level="outline" component="a" href="https://vk.com/topic-184075993_40405305"> Отзывы</Button>
                       
                     </div>
                                     </center>
+        
         <Separator style={{ margin: '12px 0' }} />
+    
+      
         </center>
         
         <Button size="xl" component="a" href="#">Вверх</Button>

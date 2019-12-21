@@ -27,6 +27,8 @@ import Icon28UsersOutline from '@vkontakte/icons/dist/28/users_outline';
 import Icon28ArticleOutline from '@vkontakte/icons/dist/28/article_outline';
 import Icon28ReportOutline from '@vkontakte/icons/dist/28/report_outline';
 import Icon28Mention from '@vkontakte/icons/dist/28/mention';
+import Icon28ServicesOutline from '@vkontakte/icons/dist/28/services_outline';
+import Icon28KeyboardOutline from '@vkontakte/icons/dist/28/keyboard_outline';
 
 import persik from '../img/persik.png';
 import './Persik.css';
@@ -61,19 +63,27 @@ const Persik2 = ({ id, go, fetchedUser }) => (
      
         <Group title="Ещё">
         <Div>
-        <Cell asideContent={<Switch />}>
-           Мне нравится
-        </Cell>
+        <Button size="xl" level="2" component="a" href="https://vk.com/topic-184075993_40901326" before={
+          <Icon28KeyboardOutline />
+        }>
+        Есть свой TS3 сервер?
+        </Button>
+        <br/>
+        <Button size="xl" level="2" component="a" href="https://vk.com/topic-184075993_40901322" before={
+          <Icon28ServicesOutline />
+        }>
+        Обсуждение приложения
+        </Button>
               <Separator style={{ margin: '12px 0' }} />
 
-        <Button size="xl" level="2" component="a" href="#" before={
+        <Button size="xl" level="2" component="a" href="https://vk.com/topic-184075993_40901328" before={
         <Icon28Mention />
       }>
      
       Оставить отзыв
       </Button>
       <br/>
-      <Button size="xl" level="2" component="a" href="#" before={
+      <Button size="xl" level="2" component="a" href="https://vk.me/id288498260" before={
         <Icon28ReportOutline />
       }>
      
@@ -106,14 +116,14 @@ const Persik2 = ({ id, go, fetchedUser }) => (
                     </div>
                   }
                 >
-                  Рылов Тимофей</Cell>
+                  Тимофей Рылов</Cell>
       <Separator style={{ margin: '12px 0' }} />
       <Div style={{display: 'flex'}}>
       <center>
       &nbsp;
       &nbsp;
       
-      <Button size="l" level="outline" component="a" href="https://vk.cc/a8TT8i" before={
+      <Button size="l" level="outline" component="a" href="https://vk.me/join/AJQ1dzctCBZLDTZrHs3h19Q5" before={
         <Icon28Messages />
       }>
      
@@ -131,8 +141,13 @@ const Persik2 = ({ id, go, fetchedUser }) => (
       </center>
       </Div>
       </Group>
+     
 
       <Footer>Версия: 1.0</Footer>
+       <br/>
+      <br/>
+       <br/>
+      <br/>
 
 	</Panel>
 
