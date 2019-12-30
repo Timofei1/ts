@@ -58,19 +58,19 @@ class Example extends React.Component {
                     onClick={() => this.setState({ activeTab6: 'all' })}
                     selected={this.state.activeTab6 === 'all'}
                   >
-                    IT
+                    Сервера
                   </TabsItem>
                   <TabsItem
                     onClick={() => this.setState({ activeTab6: 'users' })}
                     selected={this.state.activeTab6 === 'users'}
                   >
-                    VR/AR
+                    Дополнения к серверам
                   </TabsItem>
                   <TabsItem
                     onClick={() => this.setState({ activeTab6: 'groups' })}
                     selected={this.state.activeTab6 === 'groups'}
                   >
-                    Аэро
+                    Другое
                   </TabsItem>
                   
            </HorizontalScroll>
