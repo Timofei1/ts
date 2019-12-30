@@ -66,7 +66,7 @@ const Persik1 = ({ id, go, fetchedUser }) => (
         <center>
         <h3>ТС3 ГЕЙМЕРОВ</h3>
         <br/>
-        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
+        <img src="https://sun9-37.userapi.com/c850324/v850324911/1dd0e5/2fXVWkGrRqk.jpg" width="270" />
         <br/>
         Айпи: <b>ABIDKAPLAY.vts3.pw</b><br/>
         Версия: <u>от 3.1.10</u><br/>
@@ -78,7 +78,7 @@ const Persik1 = ({ id, go, fetchedUser }) => (
         <Separator style={{ margin: '12px 0' }} />
         <h3>TeamSpeak Ютуберов</h3>
         <br/>
-        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
+        <img src="https://yt3.ggpht.com/a/AGF-l7_fydgquVpgXzU5Cnjv9GTvEFEyVvuv7oYtXw=s900-c-k-c0xffffffff-no-rj-mo" width="270" />
         <br/>
         Айпи: <b>DEM</b><br/>
         Версия: <u>от 3.1.7</u><br/>
@@ -102,7 +102,7 @@ const Persik1 = ({ id, go, fetchedUser }) => (
         <Separator style={{ margin: '12px 0' }} />
         <h3>TeamSpeak Малых Ютуберов</h3>
         <br/>
-        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
+        <img src="https://yt3.ggpht.com/a/AGF-l78OmphcVI6qca1sULJpbZ3frIUAno5h1Hfulg=s900-c-k-c0xffffffff-no-rj-mo" width="270" />
         <br/>
         Айпи: <b>185.211.244.109:10070</b><br/>
         Версия: <u>от 3.1.10</u><br/>
@@ -114,7 +114,7 @@ const Persik1 = ({ id, go, fetchedUser }) => (
         <Separator style={{ margin: '12px 0' }} />
         <h3>Тут может быть ваш сервер</h3>
         <br/>
-        <img src="https://5play.ru/uploads/posts/2019-07/1562315043_1.webp" width="270" />
+        <img src="https://sun9-67.userapi.com/c206528/v206528694/19cba/u0S8oKp98qM.jpg" width="270" />
         <br/>
         Айпи: <b>тут будет айпи</b><br/>
         Версия: <u>тут будет версия</u><br/>
