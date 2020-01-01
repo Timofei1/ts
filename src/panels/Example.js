@@ -51,7 +51,7 @@ class Example extends React.Component {
  
         <Group>
         <FixedLayout vertical="top">
-      <Tabs>
+      <Tabs type="buttons">
       
         <HorizontalScroll>
                   <TabsItem
